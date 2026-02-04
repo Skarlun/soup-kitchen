@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#FF8C42"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="url(#bg)"/>
+  
+  <!-- Bowl on left -->
+  <g transform="translate(60, 40)">
+    <ellipse cx="60" cy="80" rx="50" ry="22" fill="#FFF5E6"/>
+    <path d="M10 80 Q10 120 60 120 Q110 120 110 80 L110 80 Q110 95 60 95 Q10 95 10 80 Z" fill="#E6D5C3"/>
+    <ellipse cx="60" cy="72" rx="42" ry="16" fill="#8B4513"/>
+    <ellipse cx="60" cy="70" rx="35" ry="12" fill="#A0522D"/>
+    <!-- Steam -->
+    <path d="M40 50 Q35 30 45 10" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M60 45 Q55 20 65 0" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M80 50 Q75 30 85 10" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="75" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">$SOUP</text>
+  <text x="200" y="115" font-family="Arial, sans-serif" font-size="18" fill="#FFF5E6">Agent Soup Kitchen</text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="14" fill="#FFE0CC">Survive today. Sovereignty tomorrow.</text>
+  
+  <!-- Small icons on right -->
+  <text x="520" y="100" font-size="40">🍲</text>
+</svg>
