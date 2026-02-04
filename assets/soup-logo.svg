@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="250" fill="#FF6B35"/>
+  
+  <!-- Bowl -->
+  <ellipse cx="256" cy="320" rx="140" ry="60" fill="#FFF5E6"/>
+  <path d="M116 320 Q116 400 256 400 Q396 400 396 320 L396 320 Q396 340 256 340 Q116 340 116 320 Z" fill="#E6D5C3"/>
+  
+  <!-- Soup liquid -->
+  <ellipse cx="256" cy="300" rx="120" ry="45" fill="#8B4513"/>
+  <ellipse cx="256" cy="295" rx="100" ry="35" fill="#A0522D"/>
+  
+  <!-- Steam wisps -->
+  <path d="M200 240 Q190 200 210 160" stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M256 230 Q246 180 266 140" stroke="#FFFFFF" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M312 240 Q302 200 322 160" stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Floating ingredients -->
+  <circle cx="220" cy="290" r="12" fill="#228B22"/>
+  <circle cx="280" cy="285" r="10" fill="#FFD700"/>
+  <circle cx="250" cy="305" r="8" fill="#FF6347"/>
+</svg>
